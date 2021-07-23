@@ -1,20 +1,3 @@
-/* ************ Default ********** */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
-/* font-family: 'Lato', sans-serif; */
-
-html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px; color: #777;}
-
-.wrapper {max-width: 980px; margin: auto; padding: 80px 16px;}
-h2.title {text-align: center; margin-bottom: 24px;}
-h3.title {text-align: center; font-style: italic; font-size: 14px; margin-bottom: 24px;}
-p.content {line-height: 1.75; margin-bottom: 48px;}
-.bt {border: none; padding: 16px 20px; transition: all .5s;}
-.bt-gray {background-color: #ccc; color: #000;}
-.bt-gray:hover {background-color: #bbb;}
-.bt-black {background-color: #000; color: #fff;}
-.bt-black:hover {background-color: #eee; color: #000;}
-
-
 /* ************ header-wrapper ********** */
 .header-wrapper {position: fixed; z-index: 9999; top :0; left: 0; width: 100%; color: #777; transition: all .5s;}
 .header-wrapper.active {background-color: #fff; color: #000; box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);}
@@ -53,9 +36,7 @@ p.content {line-height: 1.75; margin-bottom: 48px;}
 .pf-wrapper .prj-wrap h3.title {font-style: normal; font-size: 24px; margin-bottom: 16px;}
 .pf-wrapper .prj-wrap p.content {margin-bottom: 0;}
 
-.pf-wrapper .title-wrap {width: 100%; height: 400px; background-image: url(../img/parallax2.jpg); background-position: center; background-size: cover; background-attachment: fixed; display: table;}
-.pf-wrapper .title-wrap .cell-wp {display: table-cell; vertical-align: middle; text-align: center;}
-.pf-wrapper .title-wrap .cell-wp h2.title {letter-spacing: 10px; font-size: 36px; color: #fff;}
+.pf-wrapper .title-wrap {background-image: url(../img/parallax2.jpg);}
 
 .pf-wrapper .work-wrap h3.title {margin-bottom: 48px;}
 .pf-wrapper .work-wp {margin-bottom: 30px;}
@@ -66,6 +47,6 @@ p.content {line-height: 1.75; margin-bottom: 48px;}
 .pf-wrapper .bt-wp {text-align: center;}
 
 /* ************ contact-wrapper ********** */
-
+.contact-wrapper .title-wrap {background-image: url(../img/parallax3.jpg);}
 
 /* ************ footer-wrapper ********** */
