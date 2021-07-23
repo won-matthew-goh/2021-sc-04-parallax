@@ -65,3 +65,9 @@
 
 
 /* ************ footer-wrapper ********** */
+.footer-wrapper {text-align: center; background-color: #000; color: #fff; opacity: .7;}
+.footer-wrapper:hover {opacity: 1;}
+.footer-wrapper .bt-wrap {margin-bottom: 24px;}
+.footer-wrapper .bt-wrap .bt-top {display: inline-block}
+.footer-wrapper .sns-wrap {margin-bottom: 24px;}
+.footer-wrapper .sns-wrap .sns {display: inline-block; font-size: 20px; margin: 0 4px;}
