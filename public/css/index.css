@@ -75,7 +75,7 @@
 .footer-wrapper .sns-wrap .sns {display: inline-block; font-size: 20px; margin: 0 4px;}
 
 /* ************ 반응형 ********** */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .header-wrapper .navi-wrap .navi:not(:first-child) {display: none;}
   .header-wrapper .search-wp {display: none;}
   .header-wrapper .bars-wrap {display: block;}
